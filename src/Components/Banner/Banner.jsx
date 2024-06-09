@@ -2,7 +2,7 @@ import React from 'react'
 import './Banner.css'
 import leaf from '../Assets/leaf.png'
 import arrow from '../Assets/arrow.png'
-import banner4 from '../Assets/banner4.jpg'
+import banner0 from '../Assets/ban.jpg'
 
 const Banner = () => {
   
@@ -25,7 +25,7 @@ const Banner = () => {
       </div>
       
       <div className="banner-right">
-        <img src={banner4} alt=''/>
+        <img src={banner0} alt=''/>
       </div>
     </div>
   )

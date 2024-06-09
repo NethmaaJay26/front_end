@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../Assets/logo.png'
 import insta_logo from '../Assets/insta.png'
+import fb_logo from '../Assets/fb.png'
+import wa_logo from '../Assets/wa.png'
 
 export const Footer = () => {
   return (
@@ -22,10 +24,10 @@ export const Footer = () => {
                 <img src={insta_logo} alt=""/>
             </div>
             <div className="footer-icons-container">
-                <img src={insta_logo} alt=""/>
+                <img src={fb_logo} alt=""/>
             </div>
             <div className="footer-icons-container">
-                <img src={insta_logo} alt=""/>
+                <img src={wa_logo} alt=""/>
             </div>
         </div>
         <div className="footer-copyright">
