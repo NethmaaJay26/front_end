@@ -1,0 +1,41 @@
+import React from 'react'
+import './Cafebanner.css'
+import leaf from '../Assets/leaf.png'
+import arrow from '../Assets/arrow.png'
+import banner4 from '../Assets/cafe.jpg'
+
+export const Cafebanner = () => {
+  return (
+        <div className='cafebanner'>
+          <div className="cafebanner-left">
+            
+            <div>
+              <div className="cafe-banner">
+                    <p>Enjoy</p>
+                    <img src={leaf} alt=""/>
+              </div>
+              <p>Fresh Brews</p>
+              <p>at Our Café</p>
+              
+            </div>
+
+            <div className="para">
+              <p>Unwind with our exquisite tea blends in a warm and inviting atmosphere.</p>
+              <p>Enjoy a perfect cup and delicious treats at The Tea Loft Café</p>
+
+            </div>
+            <div className="cafe-button">
+                 <div>Visit</div>
+                 <img src={arrow} alt=""/>
+            </div>
+            
+          </div>
+          
+          <div className="cafebanner-right">
+            <img src={banner4} alt=''/>
+          </div>
+        </div>
+      )
+    }
+
+export default Cafebanner

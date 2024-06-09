@@ -1,0 +1,102 @@
+.banner2{
+    height: 60vh;
+    background: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    line-height: 1.1;
+    align-items: center;
+}
+
+.banner2 h2{
+    color: #60832b;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+.banner2 hr{
+    width: 100px;
+    height: 6px;
+    border-radius: 10px;
+    background: #60832b ;
+    justify-content: center;
+}
+
+.point1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 50px;
+}
+
+.point1 h1{
+    color: #85aa4f;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.point1 img{
+    width: 70px;
+}
+.point1 p{
+    color: #486025;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+    
+}
+
+
+.point2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 30px;
+    
+}
+.point2 h1{
+    color: #85aa4f;
+    font-size: 25px;
+    font-weight: 600;
+}
+.point2 img{
+    width: 70px;
+}
+.point2 p{
+    color: #486025;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 55px;
+}
+
+.point3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 30px;
+    
+}
+.point3 h1{
+    color: #85aa4f;
+    font-size: 25px;
+    font-weight: 600;
+}
+.point3 img{
+    width: 70px;
+}
+.point3 p{
+    color: #486025;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
