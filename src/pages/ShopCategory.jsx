@@ -25,8 +25,6 @@ export const ShopCategory = (props) => {
           else{
             return null;
           }
-
-          
         })}
       </div>
 
