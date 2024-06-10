@@ -19,14 +19,15 @@ const Navbar = () => {
                 <li onClick={()=>{setMenue("Gifts")}}><Link to='/Gifts'>Gifts</Link> {menue==="Gifts"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenue("Cafe")}}><Link to='/Cafe'>Cafe</Link> {menue==="Cafe"?<hr/>:<></>}</li>
             </ul>
-            <div className='nav-login-cart'>
+            <div className='nav-login'>
                 <Link to='/login'><button> Login </button></Link>
+            <div className="nav-cart">
                 <Link to ='/Cart'><img src={cart} alt="" /></Link>
-
                 <div className="nav-cart-count">0</div>
             </div>
+            </div>
+            </div>
 
-        </div>
     )
 }
 export default Navbar
