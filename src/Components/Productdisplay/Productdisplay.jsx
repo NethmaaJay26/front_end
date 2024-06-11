@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './Productdisplay.css';
-import star from '../Assets/star.jpg';
-import star2 from '../Assets/star2.jpg';
+import star from '../Assets/star.png';
+import star2 from '../Assets/star2.png';
 import { ShopContext } from '../../Context/Shopcontext';
 
 const Productdisplay = (props) => {
