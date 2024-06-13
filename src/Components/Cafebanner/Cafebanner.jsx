@@ -1,10 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Cafebanner.css'
 import leaf from '../Assets/leaf.png'
 import arrow from '../Assets/arrow.png'
 import banner4 from '../Assets/cafe.jpg'
 
 export const Cafebanner = () => {
+
+  const navigate = useNavigate();
+
+  const ClickCafe = () => {
+    navigate('/cafe');
+  } 
   return (
         <div className='cafebanner'>
           <div className="cafebanner-left">
@@ -24,7 +31,7 @@ export const Cafebanner = () => {
               <p>Enjoy a perfect cup and delicious treats at The Tea Loft Café</p>
 
             </div>
-            <div className="cafe-button">
+            <div className="cafe-button" onClick={ClickCafe}>
                  <div>Visit</div>
                  <img src={arrow} alt=""/>
             </div>

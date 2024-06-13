@@ -30,6 +30,13 @@
     padding-top: 30px;
     
 }
+.shopcategory-products img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
 .shopcategory-loadmore{
     display: flex;
     justify-content: center;

@@ -1,6 +1,7 @@
 .banner2{
     height: 60vh;
     background: white;
+    /*background: linear-gradient(180deg, #ffffff ,#e0efcb,#ffffff  100%);*/
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -54,7 +55,6 @@
     padding-left: 15px;
     
 }
-
 
 .point2{
     display: flex;

@@ -1,7 +1,8 @@
 
 .banner{
     height: 70vh;
-    background: linear-gradient(180deg, #effbdd ,#a1d257 80%);
+    background: url('../Assets/banner6.jpg') no-repeat center center/cover;
+    /*background: linear-gradient(180deg, #effbdd ,#a1d257 80%);*/
     display: flex;
 }
 .banner-left{
@@ -14,12 +15,12 @@
     line-height: 1.1;
 }
 .banner-left h2{
-    color: #60832b;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 600;
 }
 .banner-left p{
-    color: #4a730b;
+    color: #ffffff;
     font-size: 75px;
     font-weight: 700;
 }
@@ -44,13 +45,9 @@
     font-size: 22px;
     font-weight: 500;
     width: 370px;
+    cursor: pointer;
    
 }
 .latest-button img{
     width: 40px;
-}
-.banner-right{
-    flex: 1;
-    display: flex;
-    width: 512px;
 }

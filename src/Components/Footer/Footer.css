@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #ffffff, #4a730b 120%), url('../Assets/tea2.jpg');
-    background-size: cover;
-    background-position: center;
-    gap: 50px;
+    padding: 20px;
+    background: url('../Assets/tea2.jpg') no-repeat center center/cover;
+    color: white; 
+    text-align: center;
+    box-sizing: border-box;
 }
 .footer-logo{
     display: flex;

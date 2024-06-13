@@ -6,18 +6,10 @@
     display: flex;
     gap: 17px;
 }
-.productdisplay-image-list{
-    display: flex;
-    flex-direction: column;
-    gap:20px
-}
-.productdisplay-image-list img{
-    height: 250px;
-    width: 250px;
-}
+
 .productdisplay-main-img{
-    width: 590px;
-    height: 600px;
+    width: 600px;
+    height: 550px;
 }
 .productdisplay-right{
     margin: 0px 70px;

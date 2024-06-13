@@ -1,10 +1,17 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom'
 import './Banner.css'
 import leaf from '../Assets/leaf.png'
 import arrow from '../Assets/arrow.png'
-import banner0 from '../Assets/ban.jpg'
+
 
 const Banner = () => {
+
+  const navigate = useNavigate();
+
+  const ClickTea = () => {
+    navigate('/tea');
+  }
   
   return (
     <div className='banner'>
@@ -18,14 +25,10 @@ const Banner = () => {
           <p>Our Latest</p>
           <p>Tea Collections</p>
         </div>
-        <div className="latest-button">
+        <div className="latest-button" onClick={ClickTea}>
              <div>Explore New Products</div>
              <img src={arrow} alt=""/>
         </div>
-      </div>
-      
-      <div className="banner-right">
-        <img src={banner0} alt=''/>
       </div>
     </div>
   )
